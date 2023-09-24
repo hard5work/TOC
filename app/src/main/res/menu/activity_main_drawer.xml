@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/convertCNF" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/automata" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/pushdown" />
+        <item
+            android:id="@+id/nav_wordSearch"
+            android:icon="@drawable/hints"
+            android:title="@string/word_search" />
+        <item
+            android:id="@+id/nav_avgMath"
+            android:icon="@drawable/hints"
+            android:title="@string/avgMath" />
+        <item
+            android:id="@+id/nav_percentageCal"
+            android:icon="@drawable/hints"
+            android:title="@string/percentC" />
+        <item
+            android:id="@+id/nav_pieChart"
+            android:icon="@drawable/hints"
+            android:title="@string/pieChartC" />
+        <item
+            android:id="@+id/nav_ArdensRule"
+            android:icon="@drawable/hints"
+            android:title="@string/ardensrule" />
+        <item
+            android:id="@+id/nav_hints"
+            android:icon="@drawable/hints"
+            android:title="@string/hint" />
+    </group>
+</menu>

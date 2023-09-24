@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_margin="3dp"
+        android:gravity="center|top"
+        android:padding="2dp"
+        android:text="@string/aveHint"
+        android:textColor="@color/red"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputResult"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="30"
+            android:padding="2dp">
+
+            <EditText
+                android:id="@+id/enterResult"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/resultV"
+                android:inputType="numberDecimal"
+                android:textColor="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="60"
+            android:padding="2dp">
+
+            <EditText
+                android:id="@+id/entervalue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="@string/numbers"
+                android:inputType="number|text"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/searchWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="10"
+            android:padding="2dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/x"
+            android:textColor="@color/red"/>
+
+        <!--<Button
+            android:id="@+id/searchWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="28"
+            android:background="@color/calcu"
+            android:padding="2dp"
+            android:text="@string/search"
+            android:textColor="@color/white" />-->
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/resultText"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|top"
+        android:padding="2dp"
+        android:text="@string/fAvgHint"
+        android:textColor="@color/red"
+        android:textStyle="bold" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputValue2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="2dp">
+
+        <EditText
+            android:id="@+id/entervalue2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint="@string/vals"
+            android:inputType="number|text"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/resultText2"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

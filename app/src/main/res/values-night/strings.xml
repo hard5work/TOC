@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TOC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="symbols">Enter Symbol </string>
+    <string name="variable">Enter Variable</string>
+    <string name="set">Set</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Results</string>
+    <string name="cnf">Chomsky Normal Form</string>
+    <string name="sym">Symbol</string>
+    <string name="term">Terminal</string>
+    <string name="var">Variable</string>
+    <string name="texttop">Enter your production 1 by 1</string>
+    <string name="production">Productions</string>
+    <string name="arrow">-></string>
+    <string name="reset">Reset</string>
+    <string name="hint">Hints</string>
+    <string name="convertCNF">CNF Conversion</string>
+    <string name="automata">AutoMata</string>
+    <string name="pushdown">PushDown AutoMata</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="word_search">Word Search</string>
+    <string name="enterword">Enter the Letters</string>
+    <string name="enterlength"> Enter No.</string>
+    <string name="search">Search</string>
+    <string name="hintTop">Enter letters to find word and no. of words to find</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">TOC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="symbols">Enter Symbol </string>
+    <string name="variable">Enter Variable</string>
+    <string name="set">Set</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Results</string>
+    <string name="cnf">Chomsky Normal Form</string>
+    <string name="sym">Symbol</string>
+    <string name="term">Terminal</string>
+    <string name="var">Variable</string>
+    <string name="texttop">Enter your production 1 by 1</string>
+    <string name="production">Productions</string>
+    <string name="arrow">-></string>
+    <string name="reset">Reset</string>
+    <string name="hint">Hints</string>
+    <string name="convertCNF">CNF Conversion</string>
+    <string name="automata">AutoMata</string>
+    <string name="pushdown">PushDown AutoMata</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="word_search">Word Search</string>
+    <string name="enterword">Enter the Letters</string>
+    <string name="enterlength">Enter No.</string>
+    <string name="search">Search</string>
+    <string name="hintTop">Enter letters to find word and no. of words to find</string>
+    <string name="avgMath">Average Value</string>
+
+    <string name="aveHint">Find the value of X with result(100) and values (45,10,5)</string>
+    <string name="resultV">Result Value</string>
+    <string name="numbers">The Value</string>
+    <string name="vals">45,46</string>
+    <string name="x">X</string>
+    <string name="anss">The value is 45 of result this</string>
+    <string name="fAvgHint">Find the average of values(45,45)</string>
+    <string name="percentC">Percentage Calculator</string>
+    <string name="whatis">What is</string>
+    <string name="pof">% of</string>
+    <string name="iswhat"> is what percent of</string>
+    <string name="increase">What is the percentage increase/decrease from </string>
+    <string name="to">to </string>\
+    <string name="whichV">What Value</string>
+    <string name="value1">Value 1</string>
+    <string name="value2">Value 2</string>
+    <string name="q1">What is Value1 % of Value2?</string>
+    <string name="q2">Value1 is what percent of Value2?</string>
+    <string name="q3">What is the percentage increase/decrease from Value1 to Value2?</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pieChartC">Pie Chart Calculator</string>
+    <string name="ardensrule">Ardens Rule</string>
+    <string name="hintardens">Solve Ardens Rule</string>
+    <string name="infoarden">Firstly, change diagram into equation, then enter according to equation.
+        [Note: use E for esplion.]</string>
+    <string name="lhs">lhs exp</string>
+    <string name="equals">=</string>
+    <string name="rhs">rhs exp</string>
+    <string name="equations">Equations</string>
+    <string name="finalState">Final State</string>
+</resources>
